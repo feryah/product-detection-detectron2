@@ -5,6 +5,6 @@ torchvision==0.8.2
 opencv-python==4.4.0.46
 opencv-python-headless==4.4.0.46
 opencv-contrib-python-headless==4.4.0.46
---find-links https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
+--find-links https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/index.html
 detectron2==0.3
 streamlit==0.73.0
