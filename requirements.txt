@@ -1,7 +1,9 @@
 numpy==1.18.5
 Pillow==7.2.0
-torch==1.7.1
-torchvision==0.8.2
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cpu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.8.2+cpu
 opencv-python==4.4.0.46
 opencv-python-headless==4.4.0.46
 opencv-contrib-python-headless==4.4.0.46
