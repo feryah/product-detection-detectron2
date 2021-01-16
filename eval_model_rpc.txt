@@ -1,0 +1,303 @@
+Loading and preparing results...
+DONE (t=1.86s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+COCOeval_opt.evaluate() finished in 91.12 seconds.
+Accumulating evaluation results...
+COCOeval_opt.accumulate() finished in 6.31 seconds.
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.750
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.981
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.921
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.025
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.750
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.808
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.808
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.062
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.808
+[01/15 12:35:20 d2.evaluation.coco_evaluation]: Evaluation results for bbox: 
+|   AP   |  AP50  |  AP75  |  APs  |  APm  |  APl   |
+|:------:|:------:|:------:|:-----:|:-----:|:------:|
+| 75.039 | 98.147 | 92.058 |  nan  | 2.456 | 75.041 |
+[01/15 12:35:20 d2.evaluation.coco_evaluation]: Some metrics cannot be computed and is shown as NaN.
+[01/15 12:35:20 d2.evaluation.coco_evaluation]: Per-category bbox AP: 
+| category             | AP     | category             | AP     | category             | AP     |
+|:---------------------|:-------|:---------------------|:-------|:---------------------|:-------|
+| 1_puffed_food        | 73.206 | 2_puffed_food        | 81.238 | 3_puffed_food        | 67.411 |
+| 4_puffed_food        | 80.431 | 5_puffed_food        | 83.599 | 6_puffed_food        | 74.406 |
+| 7_puffed_food        | 78.953 | 8_puffed_food        | 80.974 | 9_puffed_food        | 62.604 |
+| 10_puffed_food       | 84.176 | 11_puffed_food       | 75.512 | 12_puffed_food       | 79.258 |
+| 13_dried_fruit       | 80.074 | 14_dried_fruit       | 79.555 | 15_dried_fruit       | 66.200 |
+| 16_dried_fruit       | 77.825 | 17_dried_fruit       | 76.807 | 18_dried_fruit       | 74.308 |
+| 19_dried_fruit       | 82.940 | 20_dried_fruit       | 77.922 | 21_dried_fruit       | 76.904 |
+| 22_dried_food        | 65.254 | 23_dried_food        | 80.889 | 24_dried_food        | 72.364 |
+| 25_dried_food        | 74.256 | 26_dried_food        | 77.824 | 27_dried_food        | 72.871 |
+| 28_dried_food        | 72.007 | 29_dried_food        | 79.476 | 30_dried_food        | 78.315 |
+| 31_instant_drink     | 81.921 | 32_instant_drink     | 69.004 | 33_instant_drink     | 81.034 |
+| 34_instant_drink     | 73.418 | 35_instant_drink     | 79.412 | 36_instant_drink     | 78.114 |
+| 37_instant_drink     | 77.435 | 38_instant_drink     | 85.325 | 39_instant_drink     | 76.032 |
+| 40_instant_drink     | 80.585 | 41_instant_drink     | 80.217 | 42_instant_noodles   | 81.493 |
+| 43_instant_noodles   | 69.150 | 44_instant_noodles   | 79.065 | 45_instant_noodles   | 75.417 |
+| 46_instant_noodles   | 68.038 | 47_instant_noodles   | 75.706 | 48_instant_noodles   | 85.736 |
+| 49_instant_noodles   | 84.503 | 50_instant_noodles   | 80.931 | 51_instant_noodles   | 77.179 |
+| 52_instant_noodles   | 68.191 | 53_instant_noodles   | 81.432 | 54_dessert           | 84.897 |
+| 55_dessert           | 82.308 | 56_dessert           | 86.233 | 57_dessert           | 84.096 |
+| 58_dessert           | 69.401 | 59_dessert           | 82.905 | 60_dessert           | 79.320 |
+| 61_dessert           | 80.886 | 62_dessert           | 79.632 | 63_dessert           | 76.083 |
+| 64_dessert           | 79.006 | 65_dessert           | 77.018 | 66_dessert           | 76.893 |
+| 67_dessert           | 67.102 | 68_dessert           | 72.900 | 69_dessert           | 73.147 |
+| 70_dessert           | 78.307 | 71_drink             | 72.821 | 72_drink             | 71.736 |
+| 73_drink             | 66.780 | 74_drink             | 74.485 | 75_drink             | 75.235 |
+| 76_drink             | 76.993 | 77_drink             | 79.645 | 78_drink             | 76.707 |
+| 79_alcohol           | 67.649 | 80_alcohol           | 68.675 | 81_drink             | 76.029 |
+| 82_drink             | 64.722 | 83_drink             | 78.130 | 84_drink             | 77.834 |
+| 85_drink             | 82.257 | 86_drink             | 79.597 | 87_drink             | 65.338 |
+| 88_alcohol           | 80.423 | 89_alcohol           | 78.857 | 90_alcohol           | 75.457 |
+| 91_alcohol           | 69.728 | 92_alcohol           | 73.737 | 93_alcohol           | 71.189 |
+| 94_alcohol           | 82.410 | 95_alcohol           | 82.765 | 96_alcohol           | 71.395 |
+| 97_milk              | 70.759 | 98_milk              | 63.725 | 99_milk              | 72.660 |
+| 100_milk             | 72.879 | 101_milk             | 70.804 | 102_milk             | 80.199 |
+| 103_milk             | 77.196 | 104_milk             | 77.110 | 105_milk             | 78.154 |
+| 106_milk             | 80.830 | 107_milk             | 79.206 | 108_canned_food      | 69.751 |
+| 109_canned_food      | 71.527 | 110_canned_food      | 84.405 | 111_canned_food      | 81.085 |
+| 112_canned_food      | 75.510 | 113_canned_food      | 79.852 | 114_canned_food      | 63.398 |
+| 115_canned_food      | 80.885 | 116_canned_food      | 77.845 | 117_canned_food      | 73.394 |
+| 118_canned_food      | 71.952 | 119_canned_food      | 63.629 | 120_canned_food      | 80.943 |
+| 121_canned_food      | 72.015 | 122_chocolate        | 71.139 | 123_chocolate        | 66.839 |
+| 124_chocolate        | 71.914 | 125_chocolate        | 75.860 | 126_chocolate        | 72.910 |
+| 127_chocolate        | 72.828 | 128_chocolate        | 73.090 | 129_chocolate        | 67.286 |
+| 130_chocolate        | 69.419 | 131_chocolate        | 76.103 | 132_chocolate        | 68.522 |
+| 133_chocolate        | 62.853 | 134_gum              | 73.490 | 135_gum              | 72.630 |
+| 136_gum              | 74.450 | 137_gum              | 70.989 | 138_gum              | 76.761 |
+| 139_gum              | 80.023 | 140_gum              | 69.320 | 141_gum              | 65.812 |
+| 142_candy            | 79.016 | 143_candy            | 72.053 | 144_candy            | 71.182 |
+| 145_candy            | 63.898 | 146_candy            | 69.588 | 147_candy            | 63.109 |
+| 148_candy            | 74.305 | 149_candy            | 72.250 | 150_candy            | 72.958 |
+| 151_candy            | 70.170 | 152_seasoner         | 70.769 | 153_seasoner         | 76.445 |
+| 154_seasoner         | 76.180 | 155_seasoner         | 74.904 | 156_seasoner         | 72.626 |
+| 157_seasoner         | 73.921 | 158_seasoner         | 74.283 | 159_seasoner         | 76.417 |
+| 160_seasoner         | 67.906 | 161_seasoner         | 61.761 | 162_seasoner         | 69.820 |
+| 163_seasoner         | 70.418 | 164_personal_hygiene | 74.632 | 165_personal_hygiene | 74.126 |
+| 166_personal_hygiene | 66.109 | 167_personal_hygiene | 67.290 | 168_personal_hygiene | 75.864 |
+| 169_personal_hygiene | 79.464 | 170_personal_hygiene | 76.321 | 171_personal_hygiene | 74.945 |
+| 172_personal_hygiene | 74.725 | 173_personal_hygiene | 74.328 | 174_tissue           | 80.169 |
+| 175_tissue           | 82.249 | 176_tissue           | 83.589 | 177_tissue           | 83.824 |
+| 178_tissue           | 73.013 | 179_tissue           | 80.782 | 180_tissue           | 76.472 |
+| 181_tissue           | 77.306 | 182_tissue           | 75.074 | 183_tissue           | 84.882 |
+| 184_tissue           | 80.440 | 185_tissue           | 82.699 | 186_tissue           | 82.247 |
+| 187_tissue           | 84.290 | 188_tissue           | 87.281 | 189_tissue           | 73.086 |
+| 190_tissue           | 76.592 | 191_tissue           | 69.332 | 192_tissue           | 61.191 |
+| 193_tissue           | 74.720 | 194_stationery       | 76.560 | 195_stationery       | 64.881 |
+| 196_stationery       | 64.310 | 197_stationery       | 74.217 | 198_stationery       | 61.556 |
+| 199_stationery       | 72.589 | 200_stationery       | 63.154 |                      |        |
+OrderedDict([('bbox',
+              {'AP': 75.03934159205544,
+               'AP-100_milk': 72.87860463122287,
+               'AP-101_milk': 70.80430099572882,
+               'AP-102_milk': 80.19852161613001,
+               'AP-103_milk': 77.1956048582151,
+               'AP-104_milk': 77.10988146779242,
+               'AP-105_milk': 78.15435735066546,
+               'AP-106_milk': 80.83038696970091,
+               'AP-107_milk': 79.20647091237288,
+               'AP-108_canned_food': 69.75060854105018,
+               'AP-109_canned_food': 71.52684941350161,
+               'AP-10_puffed_food': 84.17563408810086,
+               'AP-110_canned_food': 84.40507684048445,
+               'AP-111_canned_food': 81.0854654771689,
+               'AP-112_canned_food': 75.51035204242014,
+               'AP-113_canned_food': 79.8518852589062,
+               'AP-114_canned_food': 63.39821291813797,
+               'AP-115_canned_food': 80.88502465666255,
+               'AP-116_canned_food': 77.8454394547312,
+               'AP-117_canned_food': 73.39435936181687,
+               'AP-118_canned_food': 71.95222754751327,
+               'AP-119_canned_food': 63.628969743001065,
+               'AP-11_puffed_food': 75.51236311124492,
+               'AP-120_canned_food': 80.94274338505669,
+               'AP-121_canned_food': 72.01529083900316,
+               'AP-122_chocolate': 71.13934990011157,
+               'AP-123_chocolate': 66.83877047632764,
+               'AP-124_chocolate': 71.91448577651522,
+               'AP-125_chocolate': 75.86041624801148,
+               'AP-126_chocolate': 72.90957513267871,
+               'AP-127_chocolate': 72.82839340581106,
+               'AP-128_chocolate': 73.0901964344038,
+               'AP-129_chocolate': 67.28584361758016,
+               'AP-12_puffed_food': 79.2577028954801,
+               'AP-130_chocolate': 69.41947699343064,
+               'AP-131_chocolate': 76.10277897640817,
+               'AP-132_chocolate': 68.52232868843188,
+               'AP-133_chocolate': 62.853410466545576,
+               'AP-134_gum': 73.4897788211177,
+               'AP-135_gum': 72.62995582869138,
+               'AP-136_gum': 74.4498508334,
+               'AP-137_gum': 70.98891525963495,
+               'AP-138_gum': 76.76129717724082,
+               'AP-139_gum': 80.02340222771352,
+               'AP-13_dried_fruit': 80.07444789887388,
+               'AP-140_gum': 69.31982362279447,
+               'AP-141_gum': 65.8124851405161,
+               'AP-142_candy': 79.01635135096072,
+               'AP-143_candy': 72.05304850324343,
+               'AP-144_candy': 71.18212725923708,
+               'AP-145_candy': 63.89838090120964,
+               'AP-146_candy': 69.58819702430564,
+               'AP-147_candy': 63.10941813432789,
+               'AP-148_candy': 74.30494267986883,
+               'AP-149_candy': 72.25045175144665,
+               'AP-14_dried_fruit': 79.55462978540615,
+               'AP-150_candy': 72.9582074435834,
+               'AP-151_candy': 70.16989501939442,
+               'AP-152_seasoner': 70.76868648686232,
+               'AP-153_seasoner': 76.44484562186817,
+               'AP-154_seasoner': 76.18010389775837,
+               'AP-155_seasoner': 74.90373000072634,
+               'AP-156_seasoner': 72.62562289107852,
+               'AP-157_seasoner': 73.92114151328384,
+               'AP-158_seasoner': 74.28307922064643,
+               'AP-159_seasoner': 76.41669245502905,
+               'AP-15_dried_fruit': 66.20005939007075,
+               'AP-160_seasoner': 67.90559156753983,
+               'AP-161_seasoner': 61.760942050941466,
+               'AP-162_seasoner': 69.81989355139329,
+               'AP-163_seasoner': 70.41786658224349,
+               'AP-164_personal_hygiene': 74.63240909725786,
+               'AP-165_personal_hygiene': 74.12587748845355,
+               'AP-166_personal_hygiene': 66.10942907888379,
+               'AP-167_personal_hygiene': 67.29032341818694,
+               'AP-168_personal_hygiene': 75.86433351602189,
+               'AP-169_personal_hygiene': 79.4642196298342,
+               'AP-16_dried_fruit': 77.82533028285211,
+               'AP-170_personal_hygiene': 76.32141877666146,
+               'AP-171_personal_hygiene': 74.94482700830808,
+               'AP-172_personal_hygiene': 74.72482230496854,
+               'AP-173_personal_hygiene': 74.32755867104028,
+               'AP-174_tissue': 80.16941627931419,
+               'AP-175_tissue': 82.24937877432302,
+               'AP-176_tissue': 83.58852863537034,
+               'AP-177_tissue': 83.82428829363519,
+               'AP-178_tissue': 73.01255473534708,
+               'AP-179_tissue': 80.78183173146557,
+               'AP-17_dried_fruit': 76.8069779236339,
+               'AP-180_tissue': 76.47246348066132,
+               'AP-181_tissue': 77.30597823331631,
+               'AP-182_tissue': 75.07365728505762,
+               'AP-183_tissue': 84.8815581166508,
+               'AP-184_tissue': 80.44030013152884,
+               'AP-185_tissue': 82.69867841339072,
+               'AP-186_tissue': 82.24709795819906,
+               'AP-187_tissue': 84.28975361218086,
+               'AP-188_tissue': 87.28080883589773,
+               'AP-189_tissue': 73.08579733418816,
+               'AP-18_dried_fruit': 74.30809119638693,
+               'AP-190_tissue': 76.59215511005837,
+               'AP-191_tissue': 69.33220476619204,
+               'AP-192_tissue': 61.19107133968341,
+               'AP-193_tissue': 74.72036295267559,
+               'AP-194_stationery': 76.55960283683314,
+               'AP-195_stationery': 64.88058021142187,
+               'AP-196_stationery': 64.3095391306493,
+               'AP-197_stationery': 74.21653300349409,
+               'AP-198_stationery': 61.55614930893019,
+               'AP-199_stationery': 72.58939722237947,
+               'AP-19_dried_fruit': 82.94025277868074,
+               'AP-1_puffed_food': 73.20590176340703,
+               'AP-200_stationery': 63.1541761552248,
+               'AP-20_dried_fruit': 77.9219547807792,
+               'AP-21_dried_fruit': 76.90441706289933,
+               'AP-22_dried_food': 65.25369254233813,
+               'AP-23_dried_food': 80.88900651817909,
+               'AP-24_dried_food': 72.36402069668925,
+               'AP-25_dried_food': 74.25578804948641,
+               'AP-26_dried_food': 77.82414041458826,
+               'AP-27_dried_food': 72.87129727071652,
+               'AP-28_dried_food': 72.00662798431358,
+               'AP-29_dried_food': 79.47622620766325,
+               'AP-2_puffed_food': 81.2375255041794,
+               'AP-30_dried_food': 78.31455873090948,
+               'AP-31_instant_drink': 81.92094412164712,
+               'AP-32_instant_drink': 69.00375760106276,
+               'AP-33_instant_drink': 81.03370046239824,
+               'AP-34_instant_drink': 73.4182715676931,
+               'AP-35_instant_drink': 79.41215827806936,
+               'AP-36_instant_drink': 78.11352015754048,
+               'AP-37_instant_drink': 77.43536642692415,
+               'AP-38_instant_drink': 85.32527022879918,
+               'AP-39_instant_drink': 76.0317712169481,
+               'AP-3_puffed_food': 67.41069382385027,
+               'AP-40_instant_drink': 80.5852321391999,
+               'AP-41_instant_drink': 80.21658829104081,
+               'AP-42_instant_noodles': 81.49334719107458,
+               'AP-43_instant_noodles': 69.14966221955922,
+               'AP-44_instant_noodles': 79.06496373852913,
+               'AP-45_instant_noodles': 75.41692818936039,
+               'AP-46_instant_noodles': 68.0376582986658,
+               'AP-47_instant_noodles': 75.70596722675853,
+               'AP-48_instant_noodles': 85.73609441530742,
+               'AP-49_instant_noodles': 84.50256222575382,
+               'AP-4_puffed_food': 80.43148813599835,
+               'AP-50_instant_noodles': 80.93089340201479,
+               'AP-51_instant_noodles': 77.17859448333324,
+               'AP-52_instant_noodles': 68.19085268468538,
+               'AP-53_instant_noodles': 81.43195291942835,
+               'AP-54_dessert': 84.89693454721305,
+               'AP-55_dessert': 82.30837770943134,
+               'AP-56_dessert': 86.23270831258777,
+               'AP-57_dessert': 84.0964189268479,
+               'AP-58_dessert': 69.40128087878527,
+               'AP-59_dessert': 82.90545449354498,
+               'AP-5_puffed_food': 83.59861035651916,
+               'AP-60_dessert': 79.32011802396022,
+               'AP-61_dessert': 80.88616011814483,
+               'AP-62_dessert': 79.63221726286345,
+               'AP-63_dessert': 76.08341676296966,
+               'AP-64_dessert': 79.00564512849526,
+               'AP-65_dessert': 77.01839600418191,
+               'AP-66_dessert': 76.8932301349814,
+               'AP-67_dessert': 67.10189162597536,
+               'AP-68_dessert': 72.90001808751322,
+               'AP-69_dessert': 73.14676304446644,
+               'AP-6_puffed_food': 74.40649458530878,
+               'AP-70_dessert': 78.30729844486763,
+               'AP-71_drink': 72.82130368856211,
+               'AP-72_drink': 71.73564064608598,
+               'AP-73_drink': 66.78046587004106,
+               'AP-74_drink': 74.48492204273418,
+               'AP-75_drink': 75.23482011193906,
+               'AP-76_drink': 76.99264179583746,
+               'AP-77_drink': 79.64521872836728,
+               'AP-78_drink': 76.707018505121,
+               'AP-79_alcohol': 67.64878697532231,
+               'AP-7_puffed_food': 78.95270677901264,
+               'AP-80_alcohol': 68.67461211475015,
+               'AP-81_drink': 76.02927164872256,
+               'AP-82_drink': 64.72169601017215,
+               'AP-83_drink': 78.12970750664991,
+               'AP-84_drink': 77.83398981120493,
+               'AP-85_drink': 82.25685945210897,
+               'AP-86_drink': 79.59660803330961,
+               'AP-87_drink': 65.3377469956788,
+               'AP-88_alcohol': 80.42340793015894,
+               'AP-89_alcohol': 78.85666948364533,
+               'AP-8_puffed_food': 80.97448403955651,
+               'AP-90_alcohol': 75.45709580692484,
+               'AP-91_alcohol': 69.72826489808058,
+               'AP-92_alcohol': 73.73684207710947,
+               'AP-93_alcohol': 71.1893856692199,
+               'AP-94_alcohol': 82.41022408328783,
+               'AP-95_alcohol': 82.76524552209499,
+               'AP-96_alcohol': 71.39520061245547,
+               'AP-97_milk': 70.75872240611115,
+               'AP-98_milk': 63.72452620437894,
+               'AP-99_milk': 72.6600011885358,
+               'AP-9_puffed_food': 62.60444290944619,
+               'AP50': 98.14693208878191,
+               'AP75': 92.05831170197195,
+               'APl': 75.04084237942075,
+               'APm': 2.455651815181518,
+               'APs': nan})])
