@@ -6,7 +6,7 @@ This is my computer vision project which is about Large-Scale Retail Product Det
 
 ![Automatic Checkout](images/aco.png)
 
-Until Streamlit will allow users to deploy models (files) hosted by Git LFS to get mu URL Web APP, you can test it yourself!
+Until Streamlit will allow users to deploy models (files) hosted by Git LFS to get the Web APP URL , you can test it yourself!
 
 ## Try it yourself!
 
