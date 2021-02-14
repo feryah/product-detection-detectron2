@@ -5,7 +5,7 @@ torch==1.7.1+cpu
 torchvision==0.8.2+cpu
 opencv-python-headless==4.4.0.46
 opencv-contrib-python-headless==4.4.0.46
-fvcore==0.1.2
+git+https://github.com/facebookresearch/fvcore
 --find-links https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/index.html
 detectron2==0.3
 streamlit==0.73.0
