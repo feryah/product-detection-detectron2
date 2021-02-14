@@ -275,12 +275,13 @@ def output_image(cfg, img, outputs):
     return processed_img, outputs["instances"]
 
 
-
 def main():
     st.title("Large-Scale Retail Product Detection 👁")
     st.write("This application detects Chinese products in automatic checkout [RPC: A Large-Scale Retail Product Checkout Dataset](https://www.kaggle.com/diyer22/retail-product-checkout-dataset).")
+    st.write("You can download test images from this my Github repo: [Clutter test images](https://github.com/feryah/product-detection-detectron2/tree/master/sample_images_test_for_inference).")
     st.write("## How does it work?")
     st.write("Add an image of a products clutter and a Deep Learning model will look at it and find the products names like the example below:")
+
     st.image(Image.open("images/FotoJet.jpg"), 
              caption="Example of model being run on a products clutter.", 
              use_column_width=True)
