@@ -319,7 +319,7 @@ def main():
     st.write("The Deep Learning happens with a fine-tuned [Detectron2](https://detectron2.readthedocs.io/) model (PyTorch), \
     this front end (what you're reading) is built with  \
     and it's all hosted on [Streamlit](https://www.streamlit.io/).") #[Google's App Engine](https://cloud.google.com/appengine/)
-    st.write("### ~ Ferial Y.")
+    st.write("### ~ Ferial Yahiaoui")
     #st.write("See the [code on GitHub](https://github.com/mrdbourke/airbnb-object-detection) and a [YouTube playlist](https://www.youtube.com/playlist?list=PL6vjgQ2-qJFeMrZ0sBjmnUBZNX9xaqKuM) detailing more below.")
     #st.video("https://youtu.be/C_lIenSJb3c")
 
