@@ -10,8 +10,6 @@ This is my computer vision project which is about Large-Scale Retail Product Det
 
 Here is the [URL](https://share.streamlit.io/feryah/product-detection-detectron2/app.py) to test my app. Feel free to give me your feedback!
 
-**Having a Git LFS disable issue that will be soon fixed by Github.**
-
 
 ## See the demo!
 
